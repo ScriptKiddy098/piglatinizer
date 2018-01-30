@@ -45,8 +45,9 @@ function sentenceToPigLatin(sentence_latinized){
 		} 
 		
 		else{ 
-		// console.log(.substring(2));
-				console.log('else statement')
+		// console.log(.substring(2)); -1 try for loop flip 
+				$(".lati-n").append(word.slice(2) + word.slice(0,2) + "ay ");
+
 
 	
 		}

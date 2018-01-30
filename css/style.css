@@ -14,23 +14,40 @@ h1{
 
 
 
-button { 
+#btn { 
+  
+    height: 75px;
+    width: 250px;
     justify-content: center;
-    background-color: lightblue; 
+    background-color: transparent; 
     border-top-right-radius: 10px; 
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-weight: bold;
+    margin-left: 38%; 
+    margin-top: 20px; 
+    transition: height 1s ease, background-color .8s ease; 
 }
-button:hover{ 
-    background-color: blue;
-    height: 30px;
+
+
+#btn:hover{ 
+   
+    background-color: #b4b4e4;
+    height: 85px; 
+   
+}
+
+#btn:active{ 
+    background-color: #7d7dcf; 
 }
 
 input{ 
+    height: 40px; 
+    width: 200px;
     margin-top: 40px;
     text-align: center;
-    margin-left: 38%;
+    margin-left: 40%;
     border-top-left-radius: 10px; 
-    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px; 
 } 
 
 .lati-n{ 
@@ -40,4 +57,7 @@ input{
  font-family: 'Macondo', cursive;
     
 } 
+
+
+
 
