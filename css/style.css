@@ -1,9 +1,10 @@
 body{ 
- background-image: url("http://www.litcenter.org/wp-content/uploads/2015/06/ws_Old_Paper_Texture_1920x1080.jpg") 
+ background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-City-Colosseum-Ancient-Rome-Ancient-1920x1080-Background-PIC-WPC0012804.jpg"); 
 
 }
 
 h1{ 
+    color: black;
     margin-top: 60px;
     font-weight:bold;
     Font-size: 6em;
@@ -23,7 +24,7 @@ h1{
     border-top-right-radius: 10px; 
     border-bottom-left-radius: 10px;
     font-weight: bold;
-    margin-left: 38%; 
+    margin-left: 37.7%; 
     margin-top: 20px; 
     transition: height 1s ease, background-color .8s ease; 
 }
@@ -58,6 +59,27 @@ input{
     
 } 
 
+#separator{ 
+ width: 90%; 
+ height: 80px;
+ margin-left: 4%;
+}
 
+.contents{ 
+    margin-top: 50px;
+    margin-left: 120px ;
+    margin-right: 100px;
+  padding-top: 1em;
+  padding-bottom: 15em; 
+  background-image: url("http://www.litcenter.org/wp-content/uploads/2015/06/ws_Old_Paper_Texture_1920x1080.jpg");
+  border: white 5px dashed ; 
+  
+} 
+
+#me{ 
+ font-weight: bold;  
+ color: white;
+ text-align: center; 
+}
 
 

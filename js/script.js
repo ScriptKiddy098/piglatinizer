@@ -40,14 +40,14 @@ function sentenceToPigLatin(sentence_latinized){
 		if (char_pos1 === "a" || char_pos1 === "e" || char_pos1 === "i" || char_pos1 === "o" || char_pos1 === "u"){ 
 			$(".lati-n").append( word + "ay ");
 		// console.log(word + "ay");
-		console.log('if statement')
-		
+		console.assert(true, "true");
+
 		} 
 		
 		else{ 
 		// console.log(.substring(2)); -1 try for loop flip 
 				$(".lati-n").append(word.slice(2) + word.slice(0,2) + "ay ");
-
+			console.assert(false, "false"); 
 
 	
 		}
