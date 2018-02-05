@@ -5,7 +5,22 @@
 // CREATE THE FUNCTIONS BELOW
 
 // Document Ready Function. All of your jQuery should go in here. 
+/* global $ */ 
+
+
 $( document ).ready(function() {
+var movementStrength = 25;
+var height = movementStrength / $(window).height();
+var width = movementStrength / $(window).width();
+$("#background_Container").mousemove(function(e){
+          var pageX = e.pageX - ($(window).width() / 2);
+          var pageY = e.pageY - ($(window).height() / 2);
+          var newvalueX = width * pageX * -1 - 25;
+          var newvalueY = height * pageY * -1 - 50;
+          $('#background_Container').css("background-position", newvalueX+"px"+newvalueY+"px");
+
+/* Container Latinizer_Blw*/ 
+
 	$('#btn').click(function(){ 
 		// $('#inp').append("ay")
 		console.log($('#inp').val())
@@ -53,6 +68,8 @@ function sentenceToPigLatin(sentence_latinized){
 		}
 	}
 }
+
+
  
  //var vowel_s = ["a","A","e","E","i","I","o","O","u","U"];
  
