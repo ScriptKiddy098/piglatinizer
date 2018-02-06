@@ -36,7 +36,7 @@ function sentenceToPigLatin(sentence_latinized){
 	
 	for( var i = 0; i < sentencePieces.length; i++) {
 		word = sentencePieces[i] ;
-		console.log('word', word)
+		console.log('word', word);
 		var char_pos1= word.charAt(0); 
 				
 				
